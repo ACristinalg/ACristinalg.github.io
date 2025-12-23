@@ -1,0 +1,103 @@
+/*78226 Ana Cristina Lopez*/
+:root {
+  --sky-400: #a855f7; 
+}
+:root {
+  --text-muted: #9CA3AF;
+  --accent: #A78BFA;
+  --accent-strong: #8B5CF6;
+  --border-card: rgba(167, 139, 250, 0.15);
+}
+
+
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+
+header.theme-dark   { background-color: #0f172a }
+
+header.theme-dark  h1 { color: var(--sky-400); }
+
+section.theme-dark   { background-color: #0f172a }
+
+footer.theme-dark   { background-color: #0f172a }
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+section.theme-dark .col-3 {
+  background: linear-gradient(
+    180deg,
+    rgba(167,139,250,0.06),
+    rgba(17,24,39,0.95)
+  );
+  border: 1px solid var(--border-card);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.35s ease;
+  box-shadow:
+    0 0 0 rgba(167, 139, 250, 0);
+}
+
+section.theme-dark .col-3:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.5),
+    0 0 25px rgba(167, 139, 250, 0.25);
+}
+
+section.theme-dark .col-3 h3 {
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+section.theme-dark .col-3 p {
+  color: var(--text-muted);
+}
+
+section.theme-dark .btn.btn-solid {
+  background-color: var(--accent-strong);
+  color: #fff;
+  border: none;
+}
+
+section.theme-dark .btn.btn-solid:hover {
+  background-color: var(--accent);
+}
+
+section.theme-dark .col-3 img {
+  transition: transform 0.4s ease;
+}
+
+section.theme-dark .col-3:hover img {
+  transform: scale(1.05);
+}
+
+footer.theme-dark .footer-links a {
+  color: #a855f7 !important;
+}
+
+footer.theme-dark .footer-links a:hover {
+  color: #c084fc !important;
+}
+
+/*GOOGLE FOTS*/
+
+h1, h2, h3, h4, h5, h6,
+.logo-text {
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+body, p, a, button, .btn {
+    font-family: 'Inter', sans-serif !important;
+}
+
+nav a {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500;
+}
+
+.badge {
+    font-family: 'Space Grotesk', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
